@@ -2,13 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Audio Playback</title>
+  <title>Playback1 Player</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    audio {
+      width: 300px;
+      height: 35px;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 20px;
+      width: 100%;
+      font-size: 0.8em;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
-  <h2>Now Playing: playback1.mp3</h2>
+  <h2>Now Playing: <code>playback1.mp3</code></h2>
   <audio controls>
     <source src="playback1.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
+
+  <footer>
+    Hosted with 💾 on GitHub Pages
+  </footer>
 </body>
 </html>
